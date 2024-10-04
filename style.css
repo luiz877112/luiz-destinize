@@ -1,0 +1,461 @@
+:root{
+--Texto_escuro: #14183E;
+--Azul: #4372EB;
+--Cinza_claro: #9A9EA6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+}
+
+header{
+display: flex;
+}
+
+main h1{
+    text-align: left;
+    font-size: 4rem !important;
+}
+
+body{
+    background-color: #fafafa !important;
+}
+
+header p{
+    right: 0;
+    margin-top: 0.9rem;
+    margin-left: 0.4rem;
+    font-size: 1.4rem;
+    }
+
+    div{
+        align-items: right !important;
+        display: flex;
+    }
+
+    /* Inicio da tag MAIN */
+main{
+    display: flex;
+    text-align: center;
+}
+
+    #texts{
+        display: flex;
+        width: 38rem;
+        flex-direction: column;
+        margin-left: 12rem;
+        margin-top: 5rem;
+    }
+
+    #color-blue{
+        color: var(--Azul);
+    }
+
+    #texts h1{
+        font-size: 4.5rem;
+        color: var(--Texto_escuro);
+        font-weight: bold;
+    }
+
+    #texts p{
+        font-size: 1rem;
+        color: var(--Texto_escuro);
+        text-align: left;
+        width: 27rem;
+    }
+
+    #botoes{
+        width: 30rem;
+        display: flex;
+        height: 5rem;
+        margin-top: 36rem;
+        margin-left: -39rem;
+        left: 0 !important;
+    }
+
+    #botao{
+        background-color: var(--Azul);
+        color: #fff;
+        border: 0px solid #000;
+        width: 58rem !important;
+        height: 4rem;
+        border-radius: 1rem;
+        margin-right: 3rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #texts img{
+        color: var(--Cinza_claro);
+        text-align: left;
+    }
+
+    #imgs{
+        width: 10rem;
+        text-align: center;
+        margin-left: 45rem;
+        margin-bottom: 5rem; justify-content: center;
+    }
+
+    #img-latam{
+        width: 14rem;
+        margin-right: 7rem;
+        height: 7rem;
+    }
+
+    #img-expedia{
+        margin-top: 1rem;
+        width: 14rem;
+        margin-right: 7rem;
+        height: 4rem;
+    }
+
+    #img-qantas{
+        margin-top: 1.5rem;
+        width: 10rem;
+        margin-right: 7rem;
+        height: 3rem;
+    }
+
+    #img-alitalia{
+        margin-top: 1rem;
+        width: 10rem;
+        height: 3rem;
+    }
+
+    #destinos{
+        margin-left: 3rem;
+    }
+
+    #destinos h3{
+        color: var(--Azul);
+        letter-spacing: 0.1rem;
+    }
+
+    #destinos h1{
+        color: var(--Texto_escuro);
+        font-size: 2.5rem;
+    }
+
+    #noronha{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino2.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #atlas{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino1.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #paraiso{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino5.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #holanda{
+        width: 17rem;
+        height: 24rem;
+        z-index: 10;
+        border-radius: 1rem;
+        background-image: url(img/destino4.png);
+        background-size: cover;
+        display: flex;
+        margin-right: 4rem;
+    }
+
+    #seq-img{
+        margin-left: 3rem;
+        margin-top: 3rem;
+        justify-content: center;
+    }
+
+    .text{
+        width: 10rem;
+        margin-top: 19rem;
+        background-color: #d1d3d6ca;
+        border-radius: 0px 10px 10px 0px;
+        padding: 0.7rem;
+        font-weight: bold;
+    }
+
+    #span{
+        color: #000755;
+    }
+
+    #imgs-center{
+        margin-left: 4rem;
+        display: flex;
+        margin-top: 10rem;
+    }
+
+    #texto-imgs{
+        font-size: 1.4rem;
+        margin-top: -1rem;
+        letter-spacing: 2px;
+ color: var(--Azul);
+    }
+
+    #texto-imgs h1{
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        margin-left: -8rem;
+        letter-spacing: 2px;
+ color: var(--Azul);
+    }
+
+    #imgs-center h1{
+        font-size: 2.6rem;
+        letter-spacing: 2px;
+        color: var(--Texto_escuro);
+        font-weight: bold;
+    }
+
+    #imgs-center img{
+        margin-left: 1rem;
+        margin-top: -12rem;
+    }
+
+    #imgs-center {
+        margin-left: 6rem;
+    }
+
+    #mensagens{
+        margin-top: -26rem;
+        margin-left: 6rem;
+        display: block !important;
+        color: var(--Cinza_claro);
+    }
+
+    #lupa{
+        background-color: #84870071;
+        font-size: 1.8rem;
+        border-radius: 1rem;
+        margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+        padding: 0.6rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .divs{
+        width: 45rem;
+        display: grid; grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .divs p{
+       margin-top: -3.5rem;
+       margin-left: 5rem;
+    }
+
+    .divs-2{
+        width: 45rem;
+        display: grid; grid-template-columns: 1fr;
+        margin-bottom: 2rem;
+    }
+
+    .divs-2 p{
+        margin-top: -3.5rem;
+        margin-left: 5rem;
+        margin-bottom: 0.5rem;
+     }
+
+    .paragraf{
+        margin-top: 0.9rem;
+    }
+
+    #busca h3{
+color: #3c00d4;
+font-weight: bold;
+    }
+    
+    #busca h1{
+        color: #14183E;
+        font-weight: bold;
+        font-size: 3.5rem;
+        margin: 1.4rem 0px;
+            }
+
+    #busca p{
+        color: #14183E;
+        font-weight: bold;
+              }
+             #busca img{
+                margin: 2rem 0;
+                      }
+
+    #busca{
+        margin-top: 8rem;
+        text-align: center;
+    }
+
+    #local{
+        margin-right: 1rem;
+    }
+
+    .div-principal{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+    }
+
+    .div-principal div{
+        margin-left: 5rem;
+          }
+
+          #guiaTurismo p{
+                color: var(--Azul);
+                font-weight: bold;
+          }
+          #guiaTurismo h1{
+            color: var(--Texto_escuro);
+            font-weight: bold;
+            font-size: 3rem;
+      }
+
+          #guiaTurismo {
+            margin-top: 4rem;
+            margin-left: 9rem;
+            justify-content: center;
+      }
+
+      #div-montanha{
+        margin-top: 4rem;
+        height: 29rem;
+        background-color: #fff;
+        width: 22rem;
+        border-radius: 2rem 2rem 0 0;
+      }
+
+      .imagens img{ 
+        height: 14rem;
+        width: 22rem;
+        display: block;
+        border-radius: 2rem 2rem 0 0;
+      }
+      
+      #textos_para_div{
+margin-top: 16rem;
+margin-left: -21rem;
+display: block !important;
+      }
+
+      #div_montanha p{
+ margin-top: 3rem;
+ filter: brightness(1);
+ color: #fff;
+      }
+
+      .container img{
+        z-index: 10;
+        width: 75rem;
+        height: 15rem;
+      }
+
+      .container{
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/destino5.png');
+      background-size: cover;
+      background-position: center;
+      width: 75rem;
+      border-radius: 1rem;
+      height: 13rem;
+      margin-top: -7rem;
+      }
+
+
+      .texto{
+        color: #fff;
+        width: 50rem;
+        display: block;
+      }
+
+      #div-depoimentos .paragrafo_texto{
+        color: #4372EB;
+        font-weight: bold;
+        font-size: 1.4rem;
+        }
+        
+        #div-depoimentos{
+            justify-content: center;
+            margin: auto;
+            text-align: center;
+            display: block;
+            z-index: 10;
+            }
+
+            #divs-depoimentos{
+                justify-content: center;
+                margin: auto;
+                text-align: center;
+                margin-right: 10rem;
+                }
+        
+            #div-depoimentos h1{
+                font-size: 3rem;
+                display: block;
+                margin: 3rem 0;
+                }
+        
+            #sect-depoimentos{
+                margin: 4rem 15rem;
+            }
+        
+            #div-avatar1{
+           width: 20rem;
+           background-color: #e5e5e5a9;
+           height: 21rem;
+           padding: 1rem;
+           border-radius: 1rem;
+           box-shadow: 6px 6px 6px #9A9EA6;
+           text-align: center;
+           display: block !important;
+            }
+
+            #sect-depoimentos{
+                margin-top: 10rem;
+                display: block !important;
+            }
+        
+            #div-avatar1 p{
+                text-align: center;
+                width: 14rem;
+                margin-left: 3rem;
+                color: #9A9EA6;
+                 }
+        
+            #divs-depoimentos{
+                display: flex;
+                margin-top: 5rem;
+                margin-left: 6rem;
+            }
+        
+            footer{
+                margin-top: 8rem;
+                margin-left: 5rem;
+
+            }
+        
+            #emojis-contato{
+                margin-top: 1rem;
+            }
